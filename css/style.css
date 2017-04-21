@@ -2,6 +2,7 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -49,7 +50,7 @@ html {
 .overlay {
   width:100%;
   height:100%;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.65);
   color:#fff;
 }
 
@@ -62,7 +63,7 @@ html {
     position: center;
 }
 
-h1 {
+.tittle {
     color: #fff;
     font-size: 3em;
     font-weight: normal;
@@ -93,24 +94,36 @@ h1 {
     color: #fff;
     border-radius: 6px;
 }
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+h2 {
+    font-size: 40px;
+    font-weight: 100px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .portfolio-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 30px;
     text-align: center;
-    background: #fff;
+    background: #0f9194;
+}
+
+.img-responsive.portfolio-img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.portfolio-line-2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 30px;
     text-align: center;
     background: #eee;
 }
