@@ -55,11 +55,11 @@ html {
 }
 
 .me{
-    height: 295px;
+    height: 265px;
     border-radius: 100%;
     border-style: solid;
     border-color: #fff;
-    margin: 110px 0 20px 0;
+    margin: 100px 0 0 0;
     position: center;
 }
 
@@ -80,7 +80,7 @@ html {
 
 .bio{
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.29em;
     font-family: 'Raleway', sans-serif;
     line-height: 30px;
     margin-bottom: 30px;
